@@ -18,7 +18,7 @@
 		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!--<link rel="stylesheet" href="lib/css/zenburn.css">-->
 
 		<!-- Include the appropriate print stylesheet -->
 		<script>
@@ -92,7 +92,7 @@
 
 					<section data-markdown>
 						<script type="text/template">
-							#Where are we currently?
+							##Where are we currently?
 
 							* The VB6 days of programming <!-- .element: class="fragment roll-in" -->
 							* Hobbyist <!-- .element: class="fragment roll-in" -->
@@ -655,6 +655,7 @@
 				progress: true,
 				history: true,
 				center: true,
+				slideNumber: true,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
@@ -663,7 +664,7 @@
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					//{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
